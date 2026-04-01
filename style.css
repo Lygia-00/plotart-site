@@ -767,3 +767,233 @@ transition: all .6s ease;
   transform: translateY(-3px);
   background: #00d4bc;
 }
+
+/* ───────────────────────── */
+/* RESPONSIVIDADE GLOBAL */
+/* ───────────────────────── */
+
+/* 📱 TABLET (até 1024px) */
+@media (max-width: 1024px) {
+
+  section {
+    padding: 80px 30px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dif-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sobre-inner {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel img {
+    width: 200px;
+    height: 130px;
+  }
+
+}
+
+
+/* 📱 MOBILE (até 768px) */
+@media (max-width: 768px) {
+
+  section {
+    padding: 60px 20px;
+  }
+
+  nav {
+    padding: 0 20px;
+  }
+
+  /* NAV */
+  .nav-links {
+    display: none;
+  }
+
+  .nav-actions {
+    gap: 8px;
+  }
+
+  .nav-cta {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .btn-instagram {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 60px 20px;
+    min-height: auto;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .badge {
+    font-size: 10px;
+    padding: 5px 12px;
+  }
+
+  /* CAROUSEL */
+  .carousel img {
+    width: 160px;
+    height: 110px;
+  }
+
+  /* STATS */
+  .stats {
+    gap: 20px;
+  }
+
+  .stat-num {
+    font-size: 26px;
+  }
+
+  /* SERVICES */
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .svc-body {
+    padding: 16px;
+  }
+
+  /* DIFERENCIAIS */
+  .dif-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dif-card {
+    padding: 24px;
+  }
+
+  /* SOBRE */
+  .sobre-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .sobre-photos {
+    display: none;
+  }
+
+  .photo-wrapper img {
+    width: 100%;
+  }
+
+  /* CLIENTES */
+  .clients-track {
+    gap: 20px;
+  }
+
+  .clients-track img {
+    height: 30px;
+  }
+
+  /* CTA */
+  .cta-meta {
+    gap: 20px;
+  }
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+  /* CONTATO */
+  .contact-form {
+    padding: 24px;
+  }
+
+  .contact-info h2 {
+    font-size: 24px;
+  }
+
+}
+
+
+/* 📱 MOBILE PEQUENO (até 480px) */
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 13px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-sub {
+    font-size: 14px;
+  }
+
+  .nav-cta {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+
+  .btn-primary {
+    padding: 12px 18px;
+    font-size: 13px;
+  }
+
+  .btn-ghost {
+    padding: 12px 18px;
+    font-size: 13px;
+  }
+
+  .carousel img {
+    width: 140px;
+    height: 90px;
+  }
+
+  .stat-num {
+    font-size: 22px;
+  }
+
+  .client-tag {
+    font-size: 11px;
+    padding: 8px 14px;
+  }
+
+  #backToTop {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+}
